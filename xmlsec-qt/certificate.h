@@ -18,7 +18,7 @@ public:
     Pkcs12        = xmlSecKeyDataFormatPkcs12,
     PemCert       = xmlSecKeyDataFormatCertPem,
     DerCert       = xmlSecKeyDataFormatCertDer,
-    OpenSSLEngine = xmlSecKeyDataFormatEngine
+    //OpenSSLEngine = xmlSecKeyDataFormatEngine
   };
 
   Format  format() const { return m_format; }
